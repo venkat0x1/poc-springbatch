@@ -106,4 +106,9 @@ public class AddressController {
         return "Batch job has been started with file: " + file.getOriginalFilename();
     }
 
+    @GetMapping
+    public String testAutoPRReview(){
+        return "testAutoPRReview";
+    }
+
 }
